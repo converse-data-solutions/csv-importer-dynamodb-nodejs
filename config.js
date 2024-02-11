@@ -1,11 +1,11 @@
-import dynamoose from 'dynamoose';
+const dynamoose = require("dynamoose");
 
 const initDynamoDB = () => {
   dynamoose.AWS.config.update({
-    accessKeyId: '',
-    secretAccessKey: '',
-    region: 'us-west-2'
+    accessKeyId: "AKIARPY37TSO6K6MNZI4",
+    secretAccessKey: "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",
+    region: "ap-south-1",
   });
 };
 
-export default initDynamoDB;
+module.exports = initDynamoDB;
